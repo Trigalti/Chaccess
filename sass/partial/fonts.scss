@@ -1,0 +1,29 @@
+/* fonts */
+
+/* Headers */
+
+h1 {
+	font-size:		em(30px);
+}
+
+h2 {
+	font-size:		em(20px);
+}
+
+h3 {
+	font-size:		em(14px);
+}
+
+h4 {
+	font-size:		em(12px);
+}
+
+.title {
+	font-family: 'Raleway', sans-serif;
+}
+
+.subtitle {
+	font-family: 'Merriweather', serif;
+}
+
+$default-font: 'Merriweather', serif;

@@ -1,0 +1,98 @@
+/* home */
+
+#home {
+
+
+
+   	font-family:	$default-font;
+	font-size:		em(14px);
+
+	.explanation {
+	   	margin-top:		em(24px);
+	   	float:			left;
+	}
+
+	.tags {
+		margin:			20px 0 0 0;
+		width:			100%;
+		float:			left;
+		position:		relative;
+	}
+
+	.tag {
+
+		position:		relative;
+		float:			left;
+		width:			auto;
+		margin:			0 0 0 10px;
+		@include border-radius (em(20px));
+		border:			1px solid #66ACFF;
+		padding:		em(5px);
+		padding-right:	em(9px);
+		cursor:			pointer;
+
+		&.first-child {
+			margin:		0;
+		}
+
+		label {
+			cursor:				pointer;
+		}
+
+		&:hover, &:active {
+			background-color:	#66ACFF;
+			color:				#fff;
+			label {
+				color:				#fff;
+			}
+		}
+	}
+
+	p {
+		float:					left;
+		position:				relative;
+	}
+
+	.emphasize {
+		width:					100%;
+	}
+
+	fieldset {
+		width:					100%;	
+	}
+
+	.checklist {
+
+		font-family:			$default-font;
+
+		.todo-name {
+			font-size:			em(14px);
+			font-weight:		bold;
+			float:				left;
+
+		}
+
+		.todo-checkbox {
+			float:				left;
+			padding:			5px;
+		}
+
+		.todo-content {
+			font-size:			em(14px);
+		}
+		
+		li {
+			border-bottom:		1px solid #66ACFF;
+			margin:				0 10px;
+			padding:			10px;
+		}
+	}
+
+	.nameproject {
+		margin-top:				em(24px);
+	}
+
+	.projectname {
+		margin-top:				em(14px);
+	}
+}

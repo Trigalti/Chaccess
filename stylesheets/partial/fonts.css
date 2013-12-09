@@ -1,0 +1,31 @@
+/* fonts */
+/* Headers */
+/* line 5, ../../sass/partial/fonts.scss */
+h1 {
+  font-size: em(30px);
+}
+
+/* line 9, ../../sass/partial/fonts.scss */
+h2 {
+  font-size: em(20px);
+}
+
+/* line 13, ../../sass/partial/fonts.scss */
+h3 {
+  font-size: em(14px);
+}
+
+/* line 17, ../../sass/partial/fonts.scss */
+h4 {
+  font-size: em(12px);
+}
+
+/* line 21, ../../sass/partial/fonts.scss */
+.title {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 25, ../../sass/partial/fonts.scss */
+.subtitle {
+  font-family: 'Merriweather', serif;
+}

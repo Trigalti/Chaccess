@@ -1,0 +1,468 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Variables */
+/* Variables */
+/* Fonts */
+/* fonts */
+/* Headers */
+/* line 5, ../sass/partial/fonts.scss */
+h1 {
+  font-size: em(30px);
+}
+
+/* line 9, ../sass/partial/fonts.scss */
+h2 {
+  font-size: em(20px);
+}
+
+/* line 13, ../sass/partial/fonts.scss */
+h3 {
+  font-size: em(14px);
+}
+
+/* line 17, ../sass/partial/fonts.scss */
+h4 {
+  font-size: em(12px);
+}
+
+/* line 21, ../sass/partial/fonts.scss */
+.title {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 25, ../sass/partial/fonts.scss */
+.subtitle {
+  font-family: 'Merriweather', serif;
+}
+
+/* General */
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+/* line 9, ../sass/partial/main.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 15, ../sass/partial/main.scss */
+html {
+  font-size: 20px;
+}
+
+/* line 19, ../sass/partial/main.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 28, ../sass/partial/main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 33, ../sass/partial/main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 38, ../sass/partial/main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 47, ../sass/partial/main.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 51, ../sass/partial/main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 57, ../sass/partial/main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 61, ../sass/partial/main.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 100, ../sass/partial/main.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 107, ../sass/partial/main.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 114, ../sass/partial/main.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 119, ../sass/partial/main.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 131, ../sass/partial/main.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 140, ../sass/partial/main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 145, ../sass/partial/main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 150, ../sass/partial/main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 154, ../sass/partial/main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 163, ../sass/partial/main.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 171, ../sass/partial/main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 175, ../sass/partial/main.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 179, ../sass/partial/main.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 189, ../sass/partial/main.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 194, ../sass/partial/main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 199, ../sass/partial/main.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 204, ../sass/partial/main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 208, ../sass/partial/main.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 218, ../sass/partial/main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 224, ../sass/partial/main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* general */
+/* line 3, ../sass/partial/general.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+/* line 8, ../sass/partial/general.scss */
+header {
+  float: left;
+  width: 100%;
+}
+
+/* line 13, ../sass/partial/general.scss */
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0 0 0;
+  width: 100%;
+}
+
+/* line 20, ../sass/partial/general.scss */
+.subtitle {
+  font-size: 1.2em;
+  width: 100%;
+}
+
+/* line 25, ../sass/partial/general.scss */
+.emphasize {
+  font-weight: bold;
+}
+
+/* line 30, ../sass/partial/general.scss */
+legend {
+  float: left;
+  position: relative;
+}
+
+/* Home */
+/* home */
+/* line 3, ../sass/partial/pages/home.scss */
+#home {
+  font-family: "Merriweather", serif;
+  font-size: 0.7em;
+}
+/* line 10, ../sass/partial/pages/home.scss */
+#home .explanation {
+  margin-top: 1.2em;
+  float: left;
+}
+/* line 15, ../sass/partial/pages/home.scss */
+#home .tags {
+  margin: 20px 0 0 0;
+  width: 100%;
+  float: left;
+  position: relative;
+}
+/* line 22, ../sass/partial/pages/home.scss */
+#home .tag {
+  position: relative;
+  float: left;
+  width: auto;
+  margin: 0 0 0 10px;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  border-radius: 1em;
+  border: 1px solid #66ACFF;
+  padding: 0.25em;
+  padding-right: 0.45em;
+  cursor: pointer;
+}
+/* line 34, ../sass/partial/pages/home.scss */
+#home .tag.first-child {
+  margin: 0;
+}
+/* line 38, ../sass/partial/pages/home.scss */
+#home .tag label {
+  cursor: pointer;
+}
+/* line 42, ../sass/partial/pages/home.scss */
+#home .tag:hover, #home .tag:active {
+  background-color: #66ACFF;
+  color: #fff;
+}
+/* line 45, ../sass/partial/pages/home.scss */
+#home .tag:hover label, #home .tag:active label {
+  color: #fff;
+}
+/* line 51, ../sass/partial/pages/home.scss */
+#home p {
+  float: left;
+  position: relative;
+}
+/* line 56, ../sass/partial/pages/home.scss */
+#home .emphasize {
+  width: 100%;
+}
+/* line 60, ../sass/partial/pages/home.scss */
+#home fieldset {
+  width: 100%;
+}
+/* line 64, ../sass/partial/pages/home.scss */
+#home .checklist {
+  font-family: "Merriweather", serif;
+}
+/* line 68, ../sass/partial/pages/home.scss */
+#home .checklist .todo-name {
+  font-size: 0.7em;
+  font-weight: bold;
+  float: left;
+}
+/* line 75, ../sass/partial/pages/home.scss */
+#home .checklist .todo-checkbox {
+  float: left;
+  padding: 5px;
+}
+/* line 80, ../sass/partial/pages/home.scss */
+#home .checklist .todo-content {
+  font-size: 0.7em;
+}
+/* line 84, ../sass/partial/pages/home.scss */
+#home .checklist li {
+  border-bottom: 1px solid #66ACFF;
+  margin: 0 10px;
+  padding: 10px;
+}
+/* line 91, ../sass/partial/pages/home.scss */
+#home .nameproject {
+  margin-top: 1.2em;
+}
+/* line 95, ../sass/partial/pages/home.scss */
+#home .projectname {
+  margin-top: 0.7em;
+}

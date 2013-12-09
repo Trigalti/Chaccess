@@ -1,0 +1,37 @@
+/* general */
+/* line 3, ../../sass/partial/general.scss */
+.wrapper {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+/* line 8, ../../sass/partial/general.scss */
+header {
+  float: left;
+  width: 100%;
+}
+
+/* line 13, ../../sass/partial/general.scss */
+.title {
+  font-size: em(40px);
+  font-weight: bold;
+  margin: em(20px) 0 0 0;
+  width: 100%;
+}
+
+/* line 20, ../../sass/partial/general.scss */
+.subtitle {
+  font-size: em(24px);
+  width: 100%;
+}
+
+/* line 25, ../../sass/partial/general.scss */
+.emphasize {
+  font-weight: bold;
+}
+
+/* line 30, ../../sass/partial/general.scss */
+legend {
+  float: left;
+  position: relative;
+}

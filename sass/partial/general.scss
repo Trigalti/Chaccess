@@ -1,0 +1,33 @@
+/* general */
+
+.wrapper {
+    width:  		80%;
+    margin: 		0 auto 0 auto;
+}
+
+header {
+	float:			left;
+	width:			100%;
+}
+
+.title {
+	font-size:		em(40px);
+	font-weight:	bold;
+	margin:			em(20px) 0 0 0;
+	width:			100%;
+}
+
+.subtitle {
+	font-size:		em(24px);
+	width:			100%;
+}
+
+.emphasize {
+	font-weight: 	bold;
+}
+
+
+legend {
+	float:			left;
+	position:		relative;
+}
